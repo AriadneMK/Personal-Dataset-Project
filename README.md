@@ -19,4 +19,4 @@ map visualization.png
 
 
 ## K-means Clustering 
-Unsupervised learning was used through k-means clustering to show the different locations of concerts. The number of clusters chosen was 4. 
+Unsupervised learning was used through k-means clustering to show the different locations of concerts. This was chosen as I was exploring geographical location across the globe, with overlapping points (since there were several concert dates in the same location) and wanted a visualization that could convey this. The number of clusters chosen was 4 as I saw the groups worked best with that number. When I initially attempted to use three - which seemed more reasonable given that the countries in South America were much closer geographically than those in Western Europe and Australia - I found that the clusters in South America had merged closer even though the longitude and latitude coordinates showed a clear difference. As such I increased the number of clusters and produced a more clear graph. Through this I learned where shows were centered and how to pick the number of clusters carefully as to best represent the data. 
